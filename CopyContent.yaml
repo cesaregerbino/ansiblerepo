@@ -1,0 +1,9 @@
+-
+ name: Copy file content
+ hosts: target1, target2
+ tasks:
+  - name: Content Update
+    copy:
+     dest: /tmp/resolv.conf
+     content: "nameserver 192.168.0.2\n"
+     

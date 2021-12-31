@@ -1,0 +1,3 @@
+# Inventory File
+target1 ansible_ssh_pass=osboxes.org ansible_host=192.168.1.42
+target2 ansible_ssh_pass=osboxes.org ansible_host=192.168.1.132
